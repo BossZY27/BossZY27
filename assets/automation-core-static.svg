@@ -1,0 +1,51 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">BossZY27 Automation Engineer</title>
+  <desc id="desc">Static neon circuit banner for visitors who prefer reduced motion</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#030712"/>
+      <stop offset="0.48" stop-color="#07172B"/>
+      <stop offset="1" stop-color="#10051F"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="180" y1="40" x2="1010" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.52" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <radialGradient id="cyanGlow"><stop stop-color="#22D3EE" stop-opacity="0.32"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+    <radialGradient id="violetGlow"><stop stop-color="#A855F7" stop-opacity="0.28"/><stop offset="1" stop-color="#A855F7" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#5B8FB9" stroke-opacity="0.13"/></pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect x="10" y="10" width="1180" height="340" rx="24" fill="url(#bg)"/>
+  <rect x="10" y="10" width="1180" height="340" rx="24" fill="url(#grid)"/>
+  <circle cx="178" cy="92" r="260" fill="url(#cyanGlow)"/>
+  <circle cx="1040" cy="288" r="250" fill="url(#violetGlow)"/>
+  <g opacity="0.55" stroke="url(#neon)" stroke-width="1.5" stroke-dasharray="10 12">
+    <path d="M36 92H220L272 144H420"/><path d="M1180 76H1018L958 136H820"/>
+    <path d="M28 286H174L226 234H355"/><path d="M1172 278H1032L984 230H850"/>
+  </g>
+  <g fill="#081526" stroke="url(#neon)" stroke-width="2" filter="url(#glow)">
+    <circle cx="220" cy="92" r="8"/><circle cx="272" cy="144" r="6"/><circle cx="1018" cy="76" r="8"/>
+    <circle cx="958" cy="136" r="6"/><circle cx="174" cy="286" r="7"/><circle cx="1032" cy="278" r="7"/>
+  </g>
+  <g transform="translate(92 162)" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <circle r="42" stroke="#22D3EE" stroke-opacity="0.65" stroke-width="2" stroke-dasharray="7 9"/>
+    <circle r="28" stroke="#A855F7" stroke-opacity="0.85" stroke-width="2" stroke-dasharray="5 6"/>
+    <path d="M-12 0L-3 9L15-12" stroke="#E6FAFF" stroke-width="4"/>
+  </g>
+  <g transform="translate(1100 170)" filter="url(#glow)">
+    <circle r="40" stroke="#A855F7" stroke-opacity="0.62" stroke-width="2"/>
+    <path d="M-18 0H18M0-18V18M-13-13L13 13M13-13L-13 13" stroke="#22D3EE" stroke-width="2" stroke-linecap="round"/>
+    <circle r="7" fill="#E6FAFF"/>
+  </g>
+  <text x="600" y="145" text-anchor="middle" fill="url(#neon)" font-family="Consolas, 'Courier New', monospace" font-size="58" font-weight="800" letter-spacing="8" filter="url(#glow)">BOSS.ZY27</text>
+  <text x="600" y="192" text-anchor="middle" fill="#E6FAFF" font-family="Consolas, 'Courier New', monospace" font-size="22" font-weight="700" letter-spacing="5">AUTOMATION ENGINEER</text>
+  <text x="600" y="230" text-anchor="middle" fill="#93C5FD" font-family="Consolas, 'Courier New', monospace" font-size="15" letter-spacing="3">BOT DEVELOPMENT  //  AI WORKFLOWS  //  SYSTEM INTEGRATION</text>
+  <rect x="285" y="264" width="630" height="1.5" fill="url(#neon)" opacity="0.65"/>
+  <g font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#7DD3FC" letter-spacing="2">
+    <text x="350" y="294">INPUT</text><text x="515" y="294">PROCESS</text><text x="695" y="294">AUTOMATE</text><text x="850" y="294">DELIVER</text>
+  </g>
+  <g fill="#22D3EE" filter="url(#glow)"><circle cx="326" cy="290" r="4"/><circle cx="490" cy="290" r="4"/><circle cx="670" cy="290" r="4"/><circle cx="825" cy="290" r="4"/></g>
+  <rect x="10" y="10" width="1180" height="340" rx="24" stroke="url(#neon)" stroke-width="2" stroke-opacity="0.75"/>
+</svg>
