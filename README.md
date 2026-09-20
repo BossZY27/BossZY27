@@ -1,168 +1,70 @@
-<a id="readme-top"></a>
-
 <div align="center">
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/automation-core-static.svg" />
-  <img src="./assets/automation-core.svg" width="100%" alt="BossZY27 neon automation engineer banner" />
-</picture>
+# BossZY27
 
-<p>
-  <a href="https://github.com/BossZY27?tab=repositories"><img src="https://img.shields.io/badge/Explore-My_Repositories-22D3EE?style=for-the-badge&logo=github&logoColor=050816" alt="Explore my repositories" /></a>
-  <img src="https://img.shields.io/badge/Focus-Automation_Engineering-A855F7?style=for-the-badge" alt="Focus: Automation Engineering" />
-  <img src="https://img.shields.io/badge/Builder-Solo_End--to--End-0EA5E9?style=for-the-badge" alt="Solo end-to-end builder" />
-</p>
+**Automation Engineer · Bot Developer · Software Builder**
 
-**I turn repetitive business workflows into reliable automation, bots, and AI-assisted systems.**
-
-`Data Ingestion` · `API Integration` · `Workflow Automation` · `AI Agents` · `Dashboards` · `Notifications`
+[Projects](https://github.com/BossZY27?tab=repositories) · [Classroom Automation](https://github.com/BossZY27/webscraping-classroom-ai) · [Secretary Bot](https://github.com/BossZY27/secretary-bot)
 
 </div>
 
 ## About Me
 
-I am a solo software builder focused on automation engineering and bot development. I work end to end: understanding a manual process, designing the workflow, connecting data sources, implementing the system, and making the result observable through logs, notifications, reports, or dashboards.
+I build automation that takes repetitive work out of people's day.
 
-- ⚙️ **Workflow Automation**: scheduled jobs, validation, deduplication, state machines, and human approval steps
-- 🤖 **Bots and AI**: Telegram bots, AI-assisted document processing, RAG, vision, and structured extraction
-- 🔌 **System Integration**: Google Workspace, REST APIs, Supabase, databases, storage, and messaging channels
-- 🖥️ **Full-Stack Delivery**: web dashboards, mobile apps, backend services, desktop utilities, and deployment workflows
-- 🛡️ **Operational Thinking**: retries, audit trails, role-based access, dry runs, recovery paths, and secure configuration
+Most of the projects here are solo builds. I usually work across the whole flow: understand the manual process, connect the data, write the backend or bot, schedule the jobs, and add enough logging and notifications to keep the system understandable after it starts running.
 
-> [!NOTE]
-> I am currently targeting **Automation Engineer / Bot Developer** opportunities where I can convert real business operations into maintainable software systems.
+I am currently looking for an **Automation Engineer** role focused on bots, integrations, internal tools, and practical AI.
 
-## Automation Workflow
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#081526', 'primaryBorderColor': '#22d3ee', 'primaryTextColor': '#e6faff', 'lineColor': '#a855f7', 'secondaryColor': '#160d2b', 'tertiaryColor': '#07101d'}}}%%
-flowchart LR
-    A[Trigger] --> B[Collect Data]
-    B --> C{Validate}
-    C -->|Valid| D[Transform and Automate]
-    C -->|Needs Review| E[Human Checkpoint]
-    E --> D
-    D --> F[(Database or Storage)]
-    F --> G[Notify and Report]
-    G --> H[Monitor and Improve]
-```
-
-## Selected Automation Work
-
-Private systems are shown as sanitized summaries. Public projects link directly to source code.
-
-<table>
-<tr>
-<td width="50%" valign="top">
+## Selected Work
 
 ### [Classroom Automation Pipeline](https://github.com/BossZY27/webscraping-classroom-ai)
 
-Synchronizes Google Classroom and Drive resources, removes duplicate files with content hashing, stores metadata, schedules recurring updates, generates AI summaries, and exports organized learning packages.
+Collects resources from Google Classroom and Drive, removes duplicate files with content hashing, stores metadata, runs scheduled updates, and produces AI-assisted summaries.
 
-`Python` `FastAPI` `Google APIs` `SQLite` `APScheduler` `Gemini/OpenAI/Ollama`
+`Python` `FastAPI` `Google APIs` `SQLite` `APScheduler`
 
-<sub>Public repository · sanitized source snapshot</sub>
+### [Secretary Bot](https://github.com/BossZY27/secretary-bot)
 
-</td>
-<td width="50%" valign="top">
-
-### E-Receipt Reconciliation Bot
-
-Reads structured information from incoming emails, compares receipt values, records Match/Unmatch results in Google Sheets, and sends automated LINE or email alerts on a schedule.
-
-`Google Apps Script` `Gmail` `Google Sheets` `Triggers` `Notifications`
-
-<sub>Private project · sanitized technical summary</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [TikTok Analytics Workflow](https://github.com/BossZY27/tiktok-analytics)
-
-Combines multi-account metrics, role-based access, data imports, synchronization workers, revenue workflows, and AI-assisted insights in one dashboard.
-
-`Next.js` `TypeScript` `Prisma` `PostgreSQL` `Data Pipelines`
-
-<sub>Public repository · MVP under active development</sub>
-
-</td>
-<td width="50%" valign="top">
-
-### [AI Scheduling Assistant](https://github.com/BossZY27/secretary-bot)
-
-Accepts text or schedule images, extracts structured appointments with AI vision, checks free time, stores events, and delivers morning summaries and appointment reminders through Telegram.
+A Telegram assistant that accepts text or schedule images, extracts appointments with AI vision, checks available time, stores events, and sends reminders.
 
 `Python` `Telegram Bot` `Gemini` `SQLite` `Scheduled Jobs`
 
-<sub>Public repository · solo project</sub>
+### E-Receipt Reconciliation Bot
 
-</td>
-</tr>
-</table>
+Reads receipt information from email, compares totals, records Match/Unmatch results in Google Sheets, and sends scheduled notifications. This is a private project, so the profile only includes a technical summary.
 
-<p align="center">
-  <a href="https://github.com/BossZY27/loongmordek-auto-sheets">Loongmordek Auto Sheets</a> ·
-  <a href="https://github.com/BossZY27/thai-rag-api">Thai RAG API</a> ·
-  <a href="https://github.com/BossZY27/forex-order-watcher">Forex Order Watcher</a>
-</p>
+`Google Apps Script` `Gmail` `Google Sheets` `Triggers`
+
+### [Loongmordek Auto Sheets](https://github.com/BossZY27/loongmordek-auto-sheets)
+
+Turns incoming content into a reviewable Google Sheets workflow with parsing rules, approval states, due queues, and test cases for the parser.
+
+`Google Apps Script` `Google Sheets` `Workflow Automation`
 
 <details>
-<summary><b>More Systems I Have Built</b></summary>
+<summary><b>More Projects</b></summary>
 
-<br />
-
-- **Content Operations Automation**: AI content parsing, Google Sheets approval states, and Make-ready publishing queues
-- **TeleSales Workflow Platform**: lead operations, reminders, reporting, spreadsheet imports, and Google Sheets synchronization
-- **Backup and Recovery Automation**: MinIO/rclone scheduling, retention, locking, health checks, dry runs, and restore workflows
-- **Low-Latency Desktop Tooling**: MPD stream monitoring, segment prediction, packaged Windows releases, and runtime diagnostics
-- **Secure AI Workspace Bridge**: local-first MCP access with path controls, rate limits, approvals, and sandboxed job execution
-- **Full-Stack Business Platforms**: loyalty, franchise operations, construction milestones, analytics, and group-ordering systems
+- [Thai RAG API](https://github.com/BossZY27/thai-rag-api): retrieval and API experiments for Thai-language content
+- [TikTok Analytics](https://github.com/BossZY27/tiktok-analytics): a dashboard for multi-account metrics and data workflows
+- TeleSales CRM Workflow: lead, call-log, renewal, notification, reporting, Google Sheets, and 3CX workflows
+- Fastwork Job Monitor: job monitoring and notification automation
 
 </details>
 
-## Technology Stack
+## Tools I Use
 
-<div align="center">
+- **Languages:** Python, TypeScript, JavaScript, SQL, Dart, PowerShell
+- **Backend and Data:** FastAPI, Next.js, PostgreSQL, SQLite, Supabase
+- **Automation:** Google Apps Script, REST APIs, scheduled jobs, webhooks, notifications
+- **Bots and AI:** Telegram Bot, Gemini, OpenAI, Ollama, RAG, AI Vision
 
-### Languages
+## Contribution Snake
 
-![Python](https://img.shields.io/badge/Python-050816?style=for-the-badge&logo=python&logoColor=22D3EE)
-![TypeScript](https://img.shields.io/badge/TypeScript-050816?style=for-the-badge&logo=typescript&logoColor=22D3EE)
-![JavaScript](https://img.shields.io/badge/JavaScript-050816?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![Dart](https://img.shields.io/badge/Dart-050816?style=for-the-badge&logo=dart&logoColor=22D3EE)
-![SQL](https://img.shields.io/badge/SQL-050816?style=for-the-badge&logo=postgresql&logoColor=A855F7)
-![PowerShell](https://img.shields.io/badge/PowerShell-050816?style=for-the-badge&logo=powershell&logoColor=22D3EE)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BossZY27/BossZY27/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BossZY27/BossZY27/output/github-contribution-grid-snake.svg" />
+  <img alt="Snake animation moving through BossZY27's GitHub contribution grid" src="https://raw.githubusercontent.com/BossZY27/BossZY27/output/github-contribution-grid-snake.svg" />
+</picture>
 
-### Automation, Backend, and AI
-
-![FastAPI](https://img.shields.io/badge/FastAPI-050816?style=for-the-badge&logo=fastapi&logoColor=22D3EE)
-![Next.js](https://img.shields.io/badge/Next.js-050816?style=for-the-badge&logo=nextdotjs&logoColor=FFFFFF)
-![Flutter](https://img.shields.io/badge/Flutter-050816?style=for-the-badge&logo=flutter&logoColor=22D3EE)
-![Supabase](https://img.shields.io/badge/Supabase-050816?style=for-the-badge&logo=supabase&logoColor=3ECF8E)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-050816?style=for-the-badge&logo=postgresql&logoColor=A855F7)
-![Google Cloud](https://img.shields.io/badge/Google_APIs-050816?style=for-the-badge&logo=googlecloud&logoColor=22D3EE)
-![Telegram](https://img.shields.io/badge/Telegram_Bots-050816?style=for-the-badge&logo=telegram&logoColor=22D3EE)
-![Gemini](https://img.shields.io/badge/Gemini_AI-050816?style=for-the-badge&logo=googlegemini&logoColor=A855F7)
-
-</div>
-
-## Currently Designing
-
-**Sales Lead Detection and Follow-Up Automation**, a proposed system for identifying relevant sales opportunities from Facebook posts using configurable products, keywords, locations, and quantities. The design includes A-D lead grading, screenshot capture and history, sales-team handoff, follow-up status, and daily reporting.
-
-> [!IMPORTANT]
-> This is currently presented as a **proposed system design**, not a completed production system. The ingestion method remains an implementation decision and is not assumed to use the Facebook API.
-
-## Let's Build Something Useful
-
-I am interested in automation projects where software can reduce repetitive work, connect disconnected tools, improve response time, and make operational data easier to act on.
-
-<div align="center">
-
-[![Repositories](https://img.shields.io/badge/Explore_Public_Repositories-050816?style=for-the-badge&logo=github&logoColor=22D3EE)](https://github.com/BossZY27?tab=repositories)
-
-<sub>Designed around automation, reliability, and honest engineering evidence.</sub>
-
-</div>
+<sub>The snake is regenerated automatically by GitHub Actions.</sub>
