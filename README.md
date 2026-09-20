@@ -4,67 +4,91 @@
 
 **Automation Engineer · Bot Developer · Software Builder**
 
-[Projects](https://github.com/BossZY27?tab=repositories) · [Classroom Automation](https://github.com/BossZY27/webscraping-classroom-ai) · [Secretary Bot](https://github.com/BossZY27/secretary-bot)
+พัฒนาระบบอัตโนมัติ บอท และซอฟต์แวร์สำหรับงานที่ต้องทำซ้ำ
+
+[ดูโปรเจกต์](https://github.com/BossZY27?tab=repositories) · [Classroom Automation](https://github.com/BossZY27/webscraping-classroom-ai) · [Secretary Bot](https://github.com/BossZY27/secretary-bot)
 
 </div>
 
-## About Me
+## เกี่ยวกับฉัน
 
-I build automation that takes repetitive work out of people's day.
+พัฒนาระบบอัตโนมัติเพื่อลดงานซ้ำ ๆ และเชื่อมเครื่องมือที่คนต้องใช้อยู่ทุกวัน
 
-Most of the projects here are solo builds. I usually work across the whole flow: understand the manual process, connect the data, write the backend or bot, schedule the jobs, and add enough logging and notifications to keep the system understandable after it starts running.
+โปรเจกต์ส่วนใหญ่ในโปรไฟล์นี้เป็นงานที่ทำเองตั้งแต่ต้นจนจบ ตั้งแต่ทำความเข้าใจกระบวนการ เชื่อมต่อข้อมูล เขียน backend หรือ bot ตั้งงานตามเวลา ไปจนถึงเพิ่ม log และ notification เพื่อให้ดูแลระบบต่อได้ง่าย
 
-I am currently looking for an **Automation Engineer** role focused on bots, integrations, internal tools, and practical AI.
+ตอนนี้กำลังมองหางานตำแหน่ง **Automation Engineer** ที่ได้ทำงานเกี่ยวกับ bot, system integration, internal tools และการใช้ AI แก้ปัญหาจริง
 
-## Selected Work
+## ผลงานที่เลือก
 
 ### [Classroom Automation Pipeline](https://github.com/BossZY27/webscraping-classroom-ai)
 
-Collects resources from Google Classroom and Drive, removes duplicate files with content hashing, stores metadata, runs scheduled updates, and produces AI-assisted summaries.
+รวบรวมไฟล์จาก Google Classroom และ Drive ตรวจข้อมูลซ้ำด้วย content hash เก็บ metadata ตั้ง scheduled jobs และสรุปเนื้อหาด้วย AI
 
 `Python` `FastAPI` `Google APIs` `SQLite` `APScheduler`
 
 ### [Secretary Bot](https://github.com/BossZY27/secretary-bot)
 
-A Telegram assistant that accepts text or schedule images, extracts appointments with AI vision, checks available time, stores events, and sends reminders.
+Telegram Bot ที่รับข้อความหรือภาพตารางนัด ใช้ AI Vision แปลงข้อมูล ตรวจเวลาว่าง เก็บนัดหมาย และส่งการแจ้งเตือน
 
 `Python` `Telegram Bot` `Gemini` `SQLite` `Scheduled Jobs`
 
 ### E-Receipt Reconciliation Bot
 
-Reads receipt information from email, compares totals, records Match/Unmatch results in Google Sheets, and sends scheduled notifications. This is a private project, so the profile only includes a technical summary.
+อ่านข้อมูลใบเสร็จจากอีเมล เปรียบเทียบยอด บันทึกผล Match/Unmatch ลง Google Sheets และส่ง notification ตามกำหนด โปรเจกต์นี้เป็นงาน private จึงแสดงเฉพาะสรุปทางเทคนิค
 
 `Google Apps Script` `Gmail` `Google Sheets` `Triggers`
 
 ### [Loongmordek Auto Sheets](https://github.com/BossZY27/loongmordek-auto-sheets)
 
-Turns incoming content into a reviewable Google Sheets workflow with parsing rules, approval states, due queues, and test cases for the parser.
+เปลี่ยนคอนเทนต์ที่รับเข้ามาให้เป็น workflow บน Google Sheets พร้อม parsing rules, approval states, due queues และชุดทดสอบ parser
 
 `Google Apps Script` `Google Sheets` `Workflow Automation`
 
 <details>
-<summary><b>More Projects</b></summary>
+<summary><b>โปรเจกต์อื่น ๆ</b></summary>
 
-- [Thai RAG API](https://github.com/BossZY27/thai-rag-api): retrieval and API experiments for Thai-language content
-- [TikTok Analytics](https://github.com/BossZY27/tiktok-analytics): a dashboard for multi-account metrics and data workflows
-- TeleSales CRM Workflow: lead, call-log, renewal, notification, reporting, Google Sheets, and 3CX workflows
-- Fastwork Job Monitor: job monitoring and notification automation
+- [Thai RAG API](https://github.com/BossZY27/thai-rag-api): ทดลองระบบ retrieval และ API สำหรับเนื้อหาภาษาไทย
+- [TikTok Analytics](https://github.com/BossZY27/tiktok-analytics): dashboard สำหรับดูข้อมูลหลายบัญชีและจัดการ data workflow
+- TeleSales CRM Workflow: จัดการ lead, call log, renewal, notification, report, Google Sheets และ 3CX
+- Fastwork Job Monitor: ตรวจงานใหม่และส่ง notification อัตโนมัติ
 
 </details>
 
-## Tools I Use
+## เทคโนโลยีที่ใช้
 
-- **Languages:** Python, TypeScript, JavaScript, SQL, Dart, PowerShell
-- **Backend and Data:** FastAPI, Next.js, PostgreSQL, SQLite, Supabase
+- **ภาษา:** Python, TypeScript, JavaScript, SQL, Dart, PowerShell
+- **Backend และ Data:** FastAPI, Next.js, PostgreSQL, SQLite, Supabase
 - **Automation:** Google Apps Script, REST APIs, scheduled jobs, webhooks, notifications
-- **Bots and AI:** Telegram Bot, Gemini, OpenAI, Ollama, RAG, AI Vision
+- **Bot และ AI:** Telegram Bot, Gemini, OpenAI, Ollama, RAG, AI Vision
+
+<details>
+<summary><b>English Version</b></summary>
+
+## About Me
+
+I build automation that takes repetitive work out of people's day. Most projects here are solo builds, covering the full flow from understanding the manual process and connecting data to building the bot or backend, scheduling jobs, and adding logs and notifications.
+
+I am currently looking for an **Automation Engineer** role focused on bots, system integration, internal tools, and practical AI.
+
+## Selected Work
+
+- **[Classroom Automation Pipeline](https://github.com/BossZY27/webscraping-classroom-ai):** collects Google Classroom and Drive resources, removes duplicate files, stores metadata, runs scheduled updates, and produces AI-assisted summaries
+- **[Secretary Bot](https://github.com/BossZY27/secretary-bot):** turns text or schedule images into appointments, checks available time, stores events, and sends Telegram reminders
+- **E-Receipt Reconciliation Bot:** reads receipt information from email, compares totals, records Match/Unmatch results in Google Sheets, and sends scheduled notifications
+- **[Loongmordek Auto Sheets](https://github.com/BossZY27/loongmordek-auto-sheets):** manages incoming content with parsing rules, approval states, due queues, and parser tests in Google Sheets
+
+## Tools
+
+Python, TypeScript, JavaScript, FastAPI, Next.js, PostgreSQL, SQLite, Supabase, Google Apps Script, REST APIs, Telegram Bot, Gemini, OpenAI, Ollama, RAG, and AI Vision.
+
+</details>
 
 ## Contribution Snake
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BossZY27/BossZY27/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BossZY27/BossZY27/output/github-contribution-grid-snake.svg" />
-  <img alt="Snake animation moving through BossZY27's GitHub contribution grid" src="https://raw.githubusercontent.com/BossZY27/BossZY27/output/github-contribution-grid-snake.svg" />
+  <img alt="งูวิ่งตามกราฟ GitHub contribution ของ BossZY27" src="https://raw.githubusercontent.com/BossZY27/BossZY27/output/github-contribution-grid-snake.svg" />
 </picture>
 
-<sub>The snake is regenerated automatically by GitHub Actions.</sub>
+<sub>อัปเดตจากข้อมูล contribution ล่าสุดโดย GitHub Actions ทุกวัน</sub>
