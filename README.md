@@ -55,13 +55,13 @@ Private systems are shown as sanitized summaries. Public projects link directly 
 <tr>
 <td width="50%" valign="top">
 
-### Classroom Automation Pipeline
+### [Classroom Automation Pipeline](https://github.com/BossZY27/webscraping-classroom-ai)
 
 Synchronizes Google Classroom and Drive resources, removes duplicate files with content hashing, stores metadata, schedules recurring updates, generates AI summaries, and exports organized learning packages.
 
 `Python` `FastAPI` `Google APIs` `SQLite` `APScheduler` `Gemini/OpenAI/Ollama`
 
-<sub>Private project · sanitized technical summary</sub>
+<sub>Public repository · sanitized source snapshot</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -101,6 +101,12 @@ Accepts text or schedule images, extracts structured appointments with AI vision
 </td>
 </tr>
 </table>
+
+<p align="center">
+  <a href="https://github.com/BossZY27/loongmordek-auto-sheets">Loongmordek Auto Sheets</a> ·
+  <a href="https://github.com/BossZY27/thai-rag-api">Thai RAG API</a> ·
+  <a href="https://github.com/BossZY27/forex-order-watcher">Forex Order Watcher</a>
+</p>
 
 <details>
 <summary><b>More Systems I Have Built</b></summary>
