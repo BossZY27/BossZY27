@@ -1,114 +1,59 @@
-<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">BossZY27 Automation Engineer</title>
-  <desc id="desc">Animated neon circuit banner with automation nodes and scanning light</desc>
+<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Automation workflow</title>
+  <desc id="desc">A minimal animated workflow moving from trigger to notification</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#030712"/>
-      <stop offset="0.48" stop-color="#07172B"/>
-      <stop offset="1" stop-color="#10051F"/>
-    </linearGradient>
-    <linearGradient id="neon" x1="180" y1="40" x2="1010" y2="320" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#22D3EE"/>
-      <stop offset="0.52" stop-color="#60A5FA"/>
-      <stop offset="1" stop-color="#A855F7"/>
-    </linearGradient>
-    <radialGradient id="cyanGlow">
-      <stop stop-color="#22D3EE" stop-opacity="0.32"/>
-      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="violetGlow">
-      <stop stop-color="#A855F7" stop-opacity="0.28"/>
-      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" stroke="#5B8FB9" stroke-opacity="0.13" stroke-width="1"/>
-    </pattern>
-    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#000000" flood-opacity="0.22"/>
     </filter>
-    <filter id="strongGlow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="11" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <clipPath id="frame"><rect x="10" y="10" width="1180" height="340" rx="24"/></clipPath>
   </defs>
 
-  <g clip-path="url(#frame)">
-    <rect x="10" y="10" width="1180" height="340" rx="24" fill="url(#bg)"/>
-    <rect x="10" y="10" width="1180" height="340" rx="24" fill="url(#grid)"/>
-    <circle cx="178" cy="92" r="260" fill="url(#cyanGlow)">
-      <animate attributeName="r" values="230;285;230" dur="7s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1040" cy="288" r="250" fill="url(#violetGlow)">
-      <animate attributeName="r" values="270;215;270" dur="8s" repeatCount="indefinite"/>
-    </circle>
+  <rect x="1" y="1" width="1198" height="258" rx="14" fill="#0D1117" stroke="#30363D" stroke-width="2"/>
+  <path d="M1 48H1199" stroke="#30363D"/>
+  <circle cx="25" cy="24" r="5" fill="#FF7B72"/>
+  <circle cx="43" cy="24" r="5" fill="#D29922"/>
+  <circle cx="61" cy="24" r="5" fill="#3FB950"/>
+  <text x="88" y="30" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="15">workflow.run()</text>
+  <circle cx="1085" cy="24" r="5" fill="#3FB950">
+    <animate attributeName="opacity" values="1;.35;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="1098" y="30" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">running</text>
 
-    <g opacity="0.55" stroke="url(#neon)" stroke-width="1.5">
-      <path d="M36 92H220L272 144H420" stroke-dasharray="10 12">
-        <animate attributeName="stroke-dashoffset" values="0;-88" dur="4s" repeatCount="indefinite"/>
-      </path>
-      <path d="M1180 76H1018L958 136H820" stroke-dasharray="10 12">
-        <animate attributeName="stroke-dashoffset" values="0;88" dur="4.6s" repeatCount="indefinite"/>
-      </path>
-      <path d="M28 286H174L226 234H355" stroke-dasharray="8 14">
-        <animate attributeName="stroke-dashoffset" values="0;-88" dur="5.2s" repeatCount="indefinite"/>
-      </path>
-      <path d="M1172 278H1032L984 230H850" stroke-dasharray="8 14">
-        <animate attributeName="stroke-dashoffset" values="0;88" dur="5.8s" repeatCount="indefinite"/>
-      </path>
+  <text x="64" y="88" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">Automation workflow</text>
+  <text x="64" y="111" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">A small system doing one job reliably, from input to notification.</text>
+
+  <path d="M170 170H1030" stroke="#30363D" stroke-width="4" stroke-linecap="round"/>
+  <path d="M170 170H1030" stroke="#58A6FF" stroke-width="4" stroke-linecap="round" stroke-dasharray="120 740">
+    <animate attributeName="stroke-dashoffset" values="120;-860" dur="5.2s" repeatCount="indefinite"/>
+  </path>
+
+  <g filter="url(#shadow)" font-family="Segoe UI, Arial, sans-serif">
+    <g transform="translate(170 170)">
+      <circle r="24" fill="#161B22" stroke="#58A6FF" stroke-width="2"/>
+      <path d="M-7-9L10 0L-7 9V-9Z" fill="#58A6FF"/>
+      <text x="0" y="46" text-anchor="middle" fill="#C9D1D9" font-size="14" font-weight="600">Trigger</text>
+      <text x="0" y="66" text-anchor="middle" fill="#8B949E" font-size="12">event received</text>
     </g>
-
-    <g fill="#081526" stroke="url(#neon)" stroke-width="2" filter="url(#softGlow)">
-      <circle cx="220" cy="92" r="8"><animate attributeName="r" values="6;10;6" dur="2.2s" repeatCount="indefinite"/></circle>
-      <circle cx="272" cy="144" r="6"><animate attributeName="opacity" values=".35;1;.35" dur="1.8s" repeatCount="indefinite"/></circle>
-      <circle cx="1018" cy="76" r="8"><animate attributeName="r" values="10;6;10" dur="2.5s" repeatCount="indefinite"/></circle>
-      <circle cx="958" cy="136" r="6"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle>
-      <circle cx="174" cy="286" r="7"><animate attributeName="r" values="5;9;5" dur="2.8s" repeatCount="indefinite"/></circle>
-      <circle cx="1032" cy="278" r="7"><animate attributeName="opacity" values=".3;1;.3" dur="2.3s" repeatCount="indefinite"/></circle>
+    <g transform="translate(455 170)">
+      <circle r="24" fill="#161B22" stroke="#A371F7" stroke-width="2"/>
+      <path d="M-10 0L-3 7L11-8" stroke="#A371F7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="0" y="46" text-anchor="middle" fill="#C9D1D9" font-size="14" font-weight="600">Validate</text>
+      <text x="0" y="66" text-anchor="middle" fill="#8B949E" font-size="12">rules checked</text>
     </g>
-
-    <g transform="translate(92 162)" filter="url(#strongGlow)">
-      <circle cx="0" cy="0" r="42" stroke="#22D3EE" stroke-opacity="0.65" stroke-width="2" stroke-dasharray="7 9">
-        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="0" cy="0" r="28" stroke="#A855F7" stroke-opacity="0.85" stroke-width="2" stroke-dasharray="5 6">
-        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="8s" repeatCount="indefinite"/>
-      </circle>
-      <path d="M-12 0L-3 9L15-12" stroke="#E6FAFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(745 170)">
+      <circle r="24" fill="#161B22" stroke="#D29922" stroke-width="2"/>
+      <path d="M-10-6H10M-10 0H6M-10 6H2" stroke="#D29922" stroke-width="3" stroke-linecap="round"/>
+      <text x="0" y="46" text-anchor="middle" fill="#C9D1D9" font-size="14" font-weight="600">Process</text>
+      <text x="0" y="66" text-anchor="middle" fill="#8B949E" font-size="12">task completed</text>
     </g>
-
-    <g transform="translate(1100 170)" filter="url(#strongGlow)">
-      <circle r="40" stroke="#A855F7" stroke-opacity="0.62" stroke-width="2"/>
-      <path d="M-18 0H18M0-18V18M-13-13L13 13M13-13L-13 13" stroke="#22D3EE" stroke-width="2" stroke-linecap="round">
-        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="10s" repeatCount="indefinite"/>
-      </path>
-      <circle r="7" fill="#E6FAFF"><animate attributeName="opacity" values="1;.45;1" dur="1.6s" repeatCount="indefinite"/></circle>
+    <g transform="translate(1030 170)">
+      <circle r="24" fill="#161B22" stroke="#3FB950" stroke-width="2"/>
+      <path d="M-10-8H10V7H3L0 11L-3 7H-10V-8Z" stroke="#3FB950" stroke-width="2.5" stroke-linejoin="round"/>
+      <text x="0" y="46" text-anchor="middle" fill="#C9D1D9" font-size="14" font-weight="600">Notify</text>
+      <text x="0" y="66" text-anchor="middle" fill="#8B949E" font-size="12">result delivered</text>
     </g>
-
-    <text x="600" y="145" text-anchor="middle" fill="url(#neon)" font-family="Consolas, 'Courier New', monospace" font-size="58" font-weight="800" letter-spacing="8" filter="url(#softGlow)">BOSS.ZY27</text>
-    <text x="600" y="192" text-anchor="middle" fill="#E6FAFF" font-family="Consolas, 'Courier New', monospace" font-size="22" font-weight="700" letter-spacing="5">AUTOMATION ENGINEER</text>
-    <text x="600" y="230" text-anchor="middle" fill="#93C5FD" font-family="Consolas, 'Courier New', monospace" font-size="15" letter-spacing="3">BOT DEVELOPMENT  //  AI WORKFLOWS  //  SYSTEM INTEGRATION</text>
-
-    <rect x="285" y="264" width="630" height="1.5" fill="url(#neon)" opacity="0.65"/>
-    <g font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#7DD3FC" letter-spacing="2">
-      <text x="350" y="294">INPUT</text>
-      <text x="515" y="294">PROCESS</text>
-      <text x="695" y="294">AUTOMATE</text>
-      <text x="850" y="294">DELIVER</text>
-    </g>
-    <g fill="#22D3EE" filter="url(#softGlow)">
-      <circle cx="326" cy="290" r="4"/>
-      <circle cx="490" cy="290" r="4"/>
-      <circle cx="670" cy="290" r="4"/>
-      <circle cx="825" cy="290" r="4"/>
-    </g>
-
-    <rect x="0" y="-40" width="1200" height="46" fill="url(#neon)" opacity="0.1">
-      <animate attributeName="y" values="-50;370" dur="5.5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;.16;0" dur="5.5s" repeatCount="indefinite"/>
-    </rect>
   </g>
 
-  <rect x="10" y="10" width="1180" height="340" rx="24" stroke="url(#neon)" stroke-width="2" stroke-opacity="0.75"/>
+  <circle r="7" fill="#F0F6FC" stroke="#58A6FF" stroke-width="3">
+    <animateMotion dur="5.2s" repeatCount="indefinite" path="M170 170H1030"/>
+  </circle>
 </svg>
