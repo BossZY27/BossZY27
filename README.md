@@ -6,7 +6,7 @@
 
 พัฒนาระบบอัตโนมัติ บอท และซอฟต์แวร์สำหรับงานที่ต้องทำซ้ำ
 
-[ดูโปรเจกต์](https://github.com/BossZY27?tab=repositories) · [Classroom Automation](https://github.com/BossZY27/webscraping-classroom-ai) · [Secretary Bot](https://github.com/BossZY27/secretary-bot)
+[Portfolio](https://bosszy-portfolio.vercel.app/) · [ดูโปรเจกต์](https://github.com/BossZY27?tab=repositories) · [Classroom Automation](https://github.com/BossZY27/webscraping-classroom-ai) · [Secretary Bot](https://github.com/BossZY27/secretary-bot)
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/BossZY27/BossZY27/main/assets/automation-core-static.svg" />
