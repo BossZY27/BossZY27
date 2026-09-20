@@ -8,6 +8,11 @@
 
 [ดูโปรเจกต์](https://github.com/BossZY27?tab=repositories) · [Classroom Automation](https://github.com/BossZY27/webscraping-classroom-ai) · [Secretary Bot](https://github.com/BossZY27/secretary-bot)
 
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/automation-core-static.svg" />
+  <img src="./assets/automation-core.svg" alt="แอนิเมชันแสดงขั้นตอนงานอัตโนมัติจาก Input ไปสู่ Process, Automate และ Deliver" width="100%" />
+</picture>
+
 </div>
 
 ## เกี่ยวกับฉัน
