@@ -2,89 +2,91 @@
 
 # BossZY27
 
-**Automation Engineer · Bot Developer · Software Builder**
+**Automation Engineer · Bot Developer · System Integration**
 
-พัฒนาระบบอัตโนมัติ บอท และซอฟต์แวร์สำหรับงานที่ต้องทำซ้ำ
+พัฒนาระบบที่เชื่อมข้อมูล ลดงานซ้ำ และทำให้ขั้นตอนทำงานตรวจสอบย้อนหลังได้
 
-[Portfolio](https://bosszy-portfolio.vercel.app/) · [ดูโปรเจกต์](https://github.com/BossZY27?tab=repositories) · [Classroom Automation](https://github.com/BossZY27/webscraping-classroom-ai) · [Secretary Bot](https://github.com/BossZY27/secretary-bot)
+[Portfolio](https://bosszy-portfolio.vercel.app/) · [Repositories](https://github.com/BossZY27?tab=repositories) · [Classroom Automation](https://github.com/BossZY27/webscraping-classroom-ai) · [Secretary Bot](https://github.com/BossZY27/secretary-bot)
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/BossZY27/BossZY27/main/assets/automation-core-static.svg" />
-  <img src="https://raw.githubusercontent.com/BossZY27/BossZY27/main/assets/automation-core.svg" alt="แอนิเมชันแสดงขั้นตอนงานอัตโนมัติจาก Input ไปสู่ Process, Automate และ Deliver" width="100%" />
+  <img src="https://raw.githubusercontent.com/BossZY27/BossZY27/main/assets/automation-core.svg" alt="ขั้นตอนงานอัตโนมัติจาก Input ไปสู่ Process, Automate และ Deliver" width="100%" />
 </picture>
 
 </div>
 
 ## เกี่ยวกับฉัน
 
-พัฒนาระบบอัตโนมัติเพื่อลดงานซ้ำ ๆ และเชื่อมเครื่องมือที่คนต้องใช้อยู่ทุกวัน
+ผมพัฒนาโปรเจกต์ในโปรไฟล์นี้ด้วยตนเอง โดยเริ่มจากทำความเข้าใจขั้นตอนงาน ออกแบบข้อมูล เชื่อม API หรือบริการภายนอก และทำ workflow ให้มีจุดตรวจสอบก่อนส่งผลลัพธ์ต่อ
 
-โปรเจกต์ส่วนใหญ่ในโปรไฟล์นี้เป็นงานที่ทำเองตั้งแต่ต้นจนจบ ตั้งแต่ทำความเข้าใจกระบวนการ เชื่อมต่อข้อมูล เขียน backend หรือ bot ตั้งงานตามเวลา ไปจนถึงเพิ่ม log และ notification เพื่อให้ดูแลระบบต่อได้ง่าย
+กำลังมองหาโอกาสในสาย **Automation Engineer** ที่ได้ทำงานเกี่ยวกับ bot, internal tools, scheduled jobs, data workflow และการเชื่อมระบบ โดยใช้ AI เฉพาะจุดที่เหมาะกับงาน
 
-ตอนนี้กำลังมองหางานตำแหน่ง **Automation Engineer** ที่ได้ทำงานเกี่ยวกับ bot, system integration, internal tools และการใช้ AI แก้ปัญหาจริง
+## ผลงานหลัก
 
-## ผลงานที่เลือก
+### [Classroom Automation & AI Assistant](https://github.com/BossZY27/webscraping-classroom-ai)
 
-### [Classroom Automation Pipeline](https://github.com/BossZY27/webscraping-classroom-ai)
-
-รวบรวมไฟล์จาก Google Classroom และ Drive ตรวจข้อมูลซ้ำด้วย content hash เก็บ metadata ตั้ง scheduled jobs และสรุปเนื้อหาด้วย AI
+เชื่อม Google Classroom และ Drive เพื่อเลือกติดตามรายวิชา ซิงค์ไฟล์ ตรวจซ้ำด้วย SHA-256 เก็บ metadata ตั้ง scheduled sync และส่งออกไฟล์หรือข้อความสำหรับนำไปใช้งานต่อ
 
 `Python` `FastAPI` `Google APIs` `SQLite` `APScheduler`
 
+**หลักฐาน:** [คู่มือติดตั้ง, workflow และ API](https://github.com/BossZY27/webscraping-classroom-ai#readme)
+
 ### [Secretary Bot](https://github.com/BossZY27/secretary-bot)
 
-Telegram Bot ที่รับข้อความหรือภาพตารางนัด ใช้ AI Vision แปลงข้อมูล ตรวจเวลาว่าง เก็บนัดหมาย และส่งการแจ้งเตือน
+Telegram bot ที่รับข้อความหรือภาพตาราง ใช้ Gemini ช่วยแปลงเป็นนัดหมาย ขอคำยืนยันก่อนบันทึก ตรวจเวลาว่าง และแจ้งเตือนตามเวลา
 
-`Python` `Telegram Bot` `Gemini` `SQLite` `Scheduled Jobs`
+`Python` `Telegram Bot` `Gemini Vision` `SQLite`
 
-### E-Receipt Reconciliation Bot
+**หลักฐาน:** [คำสั่ง, workflow และข้อจำกัด](https://github.com/BossZY27/secretary-bot#readme)
 
-อ่านข้อมูลใบเสร็จจากอีเมล เปรียบเทียบยอด บันทึกผล Match/Unmatch ลง Google Sheets และส่ง notification ตามกำหนด โปรเจกต์นี้เป็นงาน private จึงแสดงเฉพาะสรุปทางเทคนิค
+### [TikTok Analytics Dashboard](https://github.com/BossZY27/tiktok-analytics)
 
-`Google Apps Script` `Gmail` `Google Sheets` `Triggers`
+Dashboard หลายบัญชีที่นำเข้า CSV/XLSX เก็บสถิติรายวันใน PostgreSQL แยกสิทธิ์ผู้ใช้ และมี local Playwright workflow สำหรับดึง export จาก TikTok Studio
+
+`Next.js` `TypeScript` `Prisma` `PostgreSQL` `Playwright`
+
+**หลักฐาน:** [data workflow, environment variables และตัวอย่างข้อมูล](https://github.com/BossZY27/tiktok-analytics#readme)
+
+### [Thai RAG API](https://github.com/BossZY27/thai-rag-api)
+
+FastAPI prototype สำหรับค้นฐานความรู้ภาษาไทยด้วย hybrid ranking บน embeddings จาก Ollama รองรับคำตอบแบบ rule-based หรือ local LLM พร้อม source metadata, logs และ feedback
+
+`Python` `FastAPI` `Ollama` `SQLite` `RAG`
+
+**หลักฐาน:** [สถาปัตยกรรม, API และตัวอย่างแบบสังเคราะห์](https://github.com/BossZY27/thai-rag-api#readme)
 
 ### [Loongmordek Auto Sheets](https://github.com/BossZY27/loongmordek-auto-sheets)
 
-เปลี่ยนคอนเทนต์ที่รับเข้ามาให้เป็น workflow บน Google Sheets พร้อม parsing rules, approval states, due queues และชุดทดสอบ parser
+Google Apps Script workflow ที่แยกคอนเทนต์หนึ่งชุดเป็นแถวสำหรับ 4 แพลตฟอร์ม พร้อมสถานะตรวจทาน การคำนวณเวลาคิว และ parser test ที่รันแบบ offline ได้
 
-`Google Apps Script` `Google Sheets` `Workflow Automation`
+`Google Apps Script` `Google Sheets` `Workflow Automation` `Node.js Test`
+
+**หลักฐาน:** [คู่มือติดตั้ง, รูปแบบข้อมูล และคำสั่งทดสอบ](https://github.com/BossZY27/loongmordek-auto-sheets#readme)
+
+## วิธีที่ผมออกแบบ Automation
+
+```text
+Input → Validate → Transform → Store → Review → Deliver → Log
+```
+
+- แยก credential และข้อมูลจริงออกจาก source code
+- เพิ่ม confirmation หรือ review state ก่อน action ที่มีผลจริง
+- ทำให้ workflow ตรวจสอบย้อนหลังได้ด้วย status, log หรือ stored metadata
+- แยก static test ออกจาก integration test ที่ต้องใช้บัญชีหรือบริการภายนอก
+
+## เทคโนโลยีที่ใช้ในผลงาน
+
+- **ภาษา:** Python, TypeScript, JavaScript, SQL, Google Apps Script
+- **Backend & Data:** FastAPI, Next.js, PostgreSQL, SQLite, Prisma
+- **Automation:** REST APIs, scheduled jobs, Google APIs, Playwright, notifications
+- **Bot & AI:** Telegram Bot, Gemini, Ollama, RAG, AI Vision
 
 <details>
-<summary><b>โปรเจกต์อื่น ๆ</b></summary>
+<summary><b>English summary</b></summary>
 
-- [Thai RAG API](https://github.com/BossZY27/thai-rag-api): ทดลองระบบ retrieval และ API สำหรับเนื้อหาภาษาไทย
-- [TikTok Analytics](https://github.com/BossZY27/tiktok-analytics): dashboard สำหรับดูข้อมูลหลายบัญชีและจัดการ data workflow
-- TeleSales CRM Workflow: จัดการ lead, call log, renewal, notification, report, Google Sheets และ 3CX
-- Fastwork Job Monitor: ตรวจงานใหม่และส่ง notification อัตโนมัติ
+I build automation, bots, and internal tools that connect data, reduce repetitive work, and keep workflow states traceable. The projects above are solo builds covering process analysis, API integration, backend development, scheduling, validation, and documentation.
 
-</details>
-
-## เทคโนโลยีที่ใช้
-
-- **ภาษา:** Python, TypeScript, JavaScript, SQL, Dart, PowerShell
-- **Backend และ Data:** FastAPI, Next.js, PostgreSQL, SQLite, Supabase
-- **Automation:** Google Apps Script, REST APIs, scheduled jobs, webhooks, notifications
-- **Bot และ AI:** Telegram Bot, Gemini, OpenAI, Ollama, RAG, AI Vision
-
-<details>
-<summary><b>English Version</b></summary>
-
-## About Me
-
-I build automation that takes repetitive work out of people's day. Most projects here are solo builds, covering the full flow from understanding the manual process and connecting data to building the bot or backend, scheduling jobs, and adding logs and notifications.
-
-I am currently looking for an **Automation Engineer** role focused on bots, system integration, internal tools, and practical AI.
-
-## Selected Work
-
-- **[Classroom Automation Pipeline](https://github.com/BossZY27/webscraping-classroom-ai):** collects Google Classroom and Drive resources, removes duplicate files, stores metadata, runs scheduled updates, and produces AI-assisted summaries
-- **[Secretary Bot](https://github.com/BossZY27/secretary-bot):** turns text or schedule images into appointments, checks available time, stores events, and sends Telegram reminders
-- **E-Receipt Reconciliation Bot:** reads receipt information from email, compares totals, records Match/Unmatch results in Google Sheets, and sends scheduled notifications
-- **[Loongmordek Auto Sheets](https://github.com/BossZY27/loongmordek-auto-sheets):** manages incoming content with parsing rules, approval states, due queues, and parser tests in Google Sheets
-
-## Tools
-
-Python, TypeScript, JavaScript, FastAPI, Next.js, PostgreSQL, SQLite, Supabase, Google Apps Script, REST APIs, Telegram Bot, Gemini, OpenAI, Ollama, RAG, and AI Vision.
+I am looking for an **Automation Engineer** role focused on bots, system integration, data workflows, and practical AI.
 
 </details>
 
@@ -96,4 +98,4 @@ Python, TypeScript, JavaScript, FastAPI, Next.js, PostgreSQL, SQLite, Supabase, 
   <img alt="งูวิ่งตามกราฟ GitHub contribution ของ BossZY27" src="https://raw.githubusercontent.com/BossZY27/BossZY27/output/github-contribution-grid-snake.svg" />
 </picture>
 
-<sub>อัปเดตจากข้อมูล contribution ล่าสุดโดย GitHub Actions ทุกวัน</sub>
+<sub>อัปเดตจาก GitHub Actions ทุกวัน</sub>
